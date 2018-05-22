@@ -1,0 +1,8 @@
+---
+- name: Install facts on serverb
+  hosts: serverb.example.com
+  become: true
+
+  tasks:
+    
+    - name: 
